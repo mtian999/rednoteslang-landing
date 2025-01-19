@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { RocketIcon } from "lucide-react";
+import Link from "next/link";
 
 import toast, { Toaster } from "react-hot-toast";
 
@@ -20,6 +21,12 @@ const CTAButton = ({ locale, langName }: { locale: any; langName: string }) => {
         <RocketIcon />
         {locale.title_2}
       </Button>
+      <Link
+        href="https://top4ai.com/blog/xiaohongshu-slang-guide"
+        className="flex h-9 items-center justify-center rounded-full border  px-[10px] text-sm uppercase  hover:cursor-pointer "
+      >
+        blog about RedNote Slang
+      </Link>
       <Toaster
         position="top-center"
         reverseOrder={false}
