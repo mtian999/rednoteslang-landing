@@ -1,5 +1,14 @@
 export const FAQS_EN = [
   {
+    title: "What is the Chinese name for rednote?",
+    content: 'The Chinese name for rednote is "小红书"',
+  },
+  {
+    title: "What is the pinyin for the Chinese name of rednote?",
+    content:
+      'The pinyin for the Chinese name of rednote (小红书) is "xiao hong shu"',
+  },
+  {
     title: "What is the Red Note Slang Translator?",
     content:
       "The Red Note Slang Translator is designed to solve the problem of users understanding emerging slang, jargon, and abbreviations on the Red Note platform. It helps users better integrate into the community and enhance their browsing experience. It is Ready to use and Lightweight.",
